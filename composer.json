@@ -1,0 +1,21 @@
+{
+    "name": "yuido/json-validator",
+    "description": "A json validator based on json schema",
+    "keywords": ["json-schema","validation"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Juanda Rodríguez",
+            "email": "juanda@yuido.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.9",
+        "justinrainbow/json-schema": "^4.0"
+    },
+    "autoload": {
+        "psr-4": { "Yuido\\JsonValidator\\": "" }
+    },
+    "minimum-stability": "dev"
+}
